@@ -175,7 +175,7 @@ function burzaideja_scripts() {
 	wp_enqueue_script( 'burzaideja-jquery-min', get_template_directory_uri() . '/js/jquery.min.js', array(), '20141010', true );
 	wp_enqueue_script( 'burzaideja-bootstrap-js', get_template_directory_uri() . '/bootstrap/js/bootstrap.min.js', array(), '20141010', true );
 	wp_enqueue_script( 'burzaideja-fancyjs', get_template_directory_uri() . '/fancybox/jquery.fancybox.js', array(), '20160213', true );
-	wp_enqueue_script( 'burzaideja-website', get_template_directory_uri() . '/js/website.js', array(), '20150922', true );
+	wp_enqueue_script( 'burzaideja-website', get_template_directory_uri() . '/js/website.js', array(), '20160215', true );
 }
 add_action( 'wp_enqueue_scripts', 'burzaideja_scripts' );
 
