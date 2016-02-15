@@ -1,6 +1,9 @@
 <?php /* Template Name: Home */ ?>
 <?php get_header(); ?>
 
+<div class="container no-padding-xs">
+<div class="row">
+<div class="col-xs-12">
 <div id="carousel-example-generic" class="carousel slide home-banner-top bi-primary-color" data-ride="carousel">
   <!-- Indicators -->
   <ol class="carousel-indicators">
@@ -11,29 +14,17 @@
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
     <div class="item active">
-    	<div class="container">
-    	<div class="row">
-	  		<div class="col-md-12">
-	  			<img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/images/demo/img-1140x500-1.jpg">
-	  		</div>
-	  	</div>
-	  	</div>
+	  <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/images/demo/img-1140x500-1.jpg">
       <div class="carousel-caption">
-		<h2>IZRADA WEB STRANICA</h2>
-        <p>Burza ideja je specijalizirana tvrtka za izradu responzivnih web stranica, izradu responzivnih web trgovina</p>
+		<h2 class="heading-border-bottom">IZRADA WEB STRANICA</h2>
+        <p>Burza ideja je specijalizirana tvrtka za izradu responzivnih web stranica,<br />izradu responzivnih web trgovina</p>
       </div>
     </div>
 <div class="item">
-    	<div class="container">
-    	<div class="row">
-	  		<div class="col-md-12">
-	  			<img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/images/demo/img-1140x500-2.jpg">
-	  		</div>
-	  	</div>
-	  	</div>
+	  <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/images/demo/img-1140x500-2.jpg">
       <div class="carousel-caption">
-		<h2>IZRADA WEB STRANICA</h2>
-        <p>Burza ideja je specijalizirana tvrtka za izradu responzivnih web stranica, izradu responzivnih web trgovina</p>
+		<h2 class="heading-border-bottom">IZRADA WEB STRANICA</h2>
+        <p>Burza ideja je specijalizirana tvrtka za izradu responzivnih web stranica,<br /> izradu responzivnih web trgovina</p>
       </div>
     </div>
     
@@ -49,6 +40,9 @@
     <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
+</div>
+</div>
+</div>
 </div>
 
 <div class="container bi-home-4icons">
