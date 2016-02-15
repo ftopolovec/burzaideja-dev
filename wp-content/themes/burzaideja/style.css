@@ -1,0 +1,264 @@
+/*
+Theme Name: Burza ideja
+Theme URI: http://www.burza-ideja.hr
+Author: Josip Cofek
+Author URI: http://www.burza-ideja.hr
+Description: Responsive theme
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: responsive, sidebar, flexible-width, custom-header, custom-menu, editor-style, featured-images, translation-ready
+Text Domain: burzaideja
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,400italic,700,700italic,500italic,500&subset=latin,latin-ext);
+body {
+	background: #f3f3f3 url("images/bg-1.jpg");
+	color: #404041;
+}
+p {
+	text-align: justify;
+}
+.navbar-default {
+    background-color: transparent;
+    border-color: none;
+}
+.navbar {
+    border: 0px solid transparent;
+    margin-bottom: 0;
+}
+.navbar-nav {
+    float: right;
+    margin: 0;
+}
+.navbar-nav > li > a {
+    line-height: 70px;
+    padding-top: 0;
+    padding-bottom: 0;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+#section-header-contact {
+	padding-top: 10px;
+}
+#section-header-contact .col-md-8 {
+	padding-bottom: 10px;
+	text-align: right;
+	font-size: 13px;
+}
+#section-header-contact .col-md-8 a {
+	color: #404041;
+}
+#section-header-contact .col-md-8 img,
+#section-header-contact .col-md-8 a {
+	display: inline-block;
+}
+#section-header-contact .col-md-8 ul {
+	margin: 0;
+	padding: 0;
+}
+#section-header-contact .col-md-8 ul li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: inline-block;
+	border-left: solid 1px #ccc;
+	margin-left: 12px;
+	padding-left: 13px;
+}
+#section-header-contact .col-md-8 ul li:first-child {
+	border-left: none;
+	margin-left: 0px;
+	padding-left: 0px;
+}
+#section-header-contact .col-md-8 ul li.facebook a img {
+
+}
+img.grayscale {
+    filter: url("data:image/svg+xml;utf8,&lt;svg xmlns=\'http://www.w3.org/2000/svg\'&gt;&lt;filter id=\'grayscale\'&gt;&lt;feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/&gt;&lt;/filter&gt;&lt;/svg&gt;#grayscale"); /* Firefox 10+, Firefox on Android */
+    filter: gray; /* IE6-9 */
+    -webkit-filter: grayscale(100%); /* Chrome 19+, Safari 6+, Safari 6+ iOS */
+}
+img.grayscale:hover {
+    filter: url("data:image/svg+xml;utf8,&lt;svg xmlns=\'http://www.w3.org/2000/svg\'&gt;&lt;filter id=\'grayscale\'&gt;&lt;feColorMatrix type=\'matrix\' values=\'1 0 0 0 0, 0 1 0 0 0, 0 0 1 0 0, 0 0 0 1 0\'/&gt;&lt;/filter&gt;&lt;/svg&gt;#grayscale");
+    -webkit-filter: grayscale(0%);
+}
+#section-header-top {
+	background: #fff;
+}
+#header {
+}
+#header #logo {
+	max-height: 70px;
+	padding: 10px 0 10px 0;
+}
+#header-title {
+	/*background: #F6F6F6 url("images/header-title-bg-1.png") no-repeat center top;*/
+	background: #79AD36 url("images/header-title-bg-1.png") no-repeat center top;
+}
+#header-title h1 {
+	font-size: 28px;
+	color: #f3f3f3;
+	margin: 25px 0;
+	letter-spacing: 1px;
+}
+footer {
+	background: url("images/footer-1.jpg") no-repeat center top;
+	padding: 20px 0;
+}
+article p {
+	text-align: justify;
+}
+
+#sidebar > ul {
+	margin: 0;
+	padding: 0;
+}
+img.thumb-max-width {
+	max-height: 400px;
+	width: auto;
+	margin: 0 auto 10px auto;
+}
+.opacity-90 {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)"; /* IE 8 */
+	filter: alpha(opacity=90); /* IE 5-7 */
+	-moz-opacity: 0.9; /* Netscape */
+	-khtml-opacity: 0.9; /* Safari 1.x */
+	opacity: 0.9; /* Good browsers */
+}
+.bi-box-top-border {
+	background: #fafafa;
+	border-top: solid 2px #3993B2;
+	padding: 10px;
+}
+.home .bi-box-top-border h1 {
+	margin-top: 0;
+}
+/* ### HOME PAGE ### */
+.carousel-caption {
+	background: #000;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)"; /* IE 8 */
+	filter: alpha(opacity=70); /* IE 5-7 */
+	-moz-opacity: 0.7; /* Netscape */
+	-khtml-opacity: 0.7; /* Safari 1.x */
+	opacity: 0.7; /* Good browsers */
+	color: #f2f2f2;
+}
+.contactForm input,
+.contactForm textarea,
+.contactForm button {
+	margin-bottom: 10px;
+}
+.bi-primary-color {
+	background: #3993B2;
+}
+.home-banner-top {
+	margin-bottom: 20px;
+}
+.home-banner-top .bi-left-img img {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 339px;
+}
+.home-banner-top .bi-right-txt {
+	color: #f3f3f3;
+}
+.home-banner-top .bi-right-txt h2 {
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	color: #f9f239;
+	font-size: 26px;
+}
+.home-banner-top .carousel-control.left,
+.home-banner-top .carousel-control.right {
+	background-image: none;
+	background-repeat: none;
+	filter: none;
+}
+.home-banner-top .carousel-indicators {
+	
+}
+.bi-home-4icons {
+	font-size: 13px;
+	line-height: 1.7;
+}
+.bi-home-4icons .col-md-3 h3 {
+	font-size: 18px;
+	font-weight: 700;
+	text-align: center;
+	margin: 5px 0 8px 0;
+	padding: 0 0 7px 0;
+	border-bottom: solid 1px #ccc;
+}
+body.home h1 {
+	font-size: 28px;
+}
+body.home h1 span {
+	font-size: 20px;
+}
+body.page-parent .attachment-post-thumbnail {
+	float: left;
+	margin: 0 15px 0 0;
+	max-width: 250px;
+	height: auto;
+}
+/* ### EU Cookie Law Banner ### */
+#cookie-law { 
+    background: #404041;
+    margin: 0 auto 0;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    z-index: 5;
+}
+#cookie-law p { 
+    padding: 7px;
+    text-align: center;
+    margin: 0;
+    color: #f6f6f6;
+}
+/* ### END EU Cookie Law Banner ### */
+
+@media (max-width: 767px) { 
+    div[class^="col-xs-"] {
+        padding-left: 25px; 
+        padding-right: 25px;
+    }
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) {
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) {
+
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) {
+
+}
+
+
+
+
+
+@media (max-width: @screen-xs-max) {
+.home-banner-top .bi-left-img {
+	padding: 0; !important
+}
+}
+@media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {
+.home-banner-top .bi-left-img {
+	padding: 0; !important
+}
+}
+@media (min-width: @screen-md-min) and (max-width: @screen-md-max) { }
+@media (min-width: @screen-lg-min) { }
