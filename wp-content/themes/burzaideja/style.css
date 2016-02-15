@@ -44,25 +44,21 @@ p {
 }
 
 /** Shrink nav css **/
-
+.no-shrink {
+	height:70px;
+	transition: all 0.4s ease;
+}
 .shrink {
   min-height: 35px;
   margin-top:0px !important;
+  height:50px;
 }
 
-#section-header-top .shrink a {
-  padding-top: 10px !important;
-  padding-bottom: 10px !important;
-  font-size: 15px;
+.shrink #header #logo {
+	height:50px;
 }
-
-#section-header-top .shrink .navbar-brand {
-  font-size: 25px;
-}
-
-#section-header-top .shrink .navbar-toggle {
-  padding: 4px 5px;
-  margin: 8px 15px 8px 0;
+.shrink .navbar-nav > li > a {
+	line-height: 50px;
 }
 
 /** End Shrink nav **/

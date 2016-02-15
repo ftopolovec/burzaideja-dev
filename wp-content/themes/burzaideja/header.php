@@ -28,7 +28,7 @@
 		</div>
 	</div>
 </div>
-<div id="section-header-top">
+<div id="section-header-top" class="no-shrink">
 <div class="container" id="header">
 	<div class="row">
 	  <div class="col-xs-6 col-sm-4 col-md-4">
