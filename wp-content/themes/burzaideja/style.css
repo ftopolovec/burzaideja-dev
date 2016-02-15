@@ -49,9 +49,10 @@ p {
 	transition: all 0.4s ease;
 }
 .shrink {
-  min-height: 35px;
-  margin-top:0px !important;
-  height:50px;
+	min-height: 35px;
+	margin-top:0px !important;
+	height:50px;
+	box-shadow: 0px 0px 10px #000;
 }
 
 .shrink #header #logo {
@@ -110,7 +111,6 @@ img.grayscale:hover {
 }
 #section-header-top {
 	background: #fff;
-	/**margin-top:40px;**/
 }
 #header {
 }
@@ -132,6 +132,11 @@ footer {
 	background: url("images/footer-1.jpg") no-repeat center top;
 	padding: 20px 0;
 }
+
+footer p {
+	color:#999;
+}
+
 article p {
 	text-align: justify;
 }
@@ -170,6 +175,11 @@ img.thumb-max-width {
 	opacity: 0.7; /* Good browsers */
 	color: #f2f2f2;
 }
+
+.carousel-caption p {
+	text-align: center;
+}
+
 .contactForm input,
 .contactForm textarea,
 .contactForm button {
