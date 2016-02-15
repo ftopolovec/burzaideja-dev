@@ -78,3 +78,15 @@ $(document).ready(function(){
 		'padding'       :   '0'
 	});
 });
+
+/* Shrink Nav Function */
+
+$(window).scroll(function() {
+  if ($(document).scrollTop() > 110) {
+    $('#section-header-top').addClass('navbar-fixed-top shrink');
+  } else {
+    $('#section-header-top').removeClass('navbar-fixed-top shrink');
+  }
+}); 
+
+/* Shrink Nav End */
