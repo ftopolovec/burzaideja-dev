@@ -64,7 +64,6 @@ p {
 
 /** End Shrink nav **/
 /** Navbar collapse **/
-
 @media (max-width: 767px) { 
 	.no-shrink #bs-example-navbar-collapse-1 {
 		background:transparent;
@@ -75,17 +74,27 @@ p {
 		line-height: 30px;
 		padding:10px;
 	}
-	#bs-example-navbar-collapse-1 ul {
-		border-left:1px #999 solid;
-		border-right:1px #999 solid;
-		border-bottom:1px #999 solid;
-	}
 }
 .shrink #bs-example-navbar-collapse-1 {
 	background:transparent;
 	margin-top:0px;
 	border:none;
 }
+
+.shrink #bs-example-navbar-collapse-1 ul {
+	border:1px solid #999;
+}
+
+.navbar-nav > li > a {
+	background:#fff;
+}
+
+.navbar-nav > li > a:hover {
+	background:#999 !important;
+	color:#fff !important;
+}
+
+/** END Navbar collapse **/
 
 #section-header-contact {
 	padding-top: 10px;
