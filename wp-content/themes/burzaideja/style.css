@@ -74,24 +74,23 @@ p {
 		line-height: 30px;
 		padding:10px;
 	}
-}
-.shrink #bs-example-navbar-collapse-1 {
-	background:transparent;
-	margin-top:0px;
-	border:none;
-}
+	.navbar-nav > li > a {
+		background:#fff;
+	}
 
-.shrink #bs-example-navbar-collapse-1 ul {
-	border:1px solid #999;
-}
+	.navbar-nav > li > a:hover {
+		background:#999 !important;
+		color:#fff !important;
+	}
 
-.navbar-nav > li > a {
-	background:#fff;
-}
-
-.navbar-nav > li > a:hover {
-	background:#999 !important;
-	color:#fff !important;
+	.shrink #bs-example-navbar-collapse-1 {
+		background:transparent;
+		margin-top:0px;
+		border:none;
+	}
+	.shrink #bs-example-navbar-collapse-1 ul {
+		border:1px solid #999;
+	}
 }
 
 /** END Navbar collapse **/
