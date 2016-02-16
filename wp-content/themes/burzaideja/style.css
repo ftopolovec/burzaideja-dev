@@ -63,6 +63,29 @@ p {
 }
 
 /** End Shrink nav **/
+/** Navbar collapse **/
+
+@media (max-width: 767px) { 
+	.no-shrink #bs-example-navbar-collapse-1 {
+		background:transparent;
+		margin-top:20px;
+		border:none;
+	}
+	#bs-example-navbar-collapse-1 a {
+		line-height: 30px;
+		padding:10px;
+	}
+	#bs-example-navbar-collapse-1 ul {
+		border-left:1px #999 solid;
+		border-right:1px #999 solid;
+		border-bottom:1px #999 solid;
+	}
+}
+.shrink #bs-example-navbar-collapse-1 {
+	background:transparent;
+	margin-top:0px;
+	border:none;
+}
 
 #section-header-contact {
 	padding-top: 10px;
@@ -274,7 +297,7 @@ body.page-parent .attachment-post-thumbnail {
 }
 /* ### END EU Cookie Law Banner ### */
 
-/* ### MEDIA QUERY ### */
+/* ### MEDIA QUERY SLIDER ### */
 @media (max-width: 767px) { 
     div[class^="col-xs-"] {
         padding-left: 25px; 
@@ -315,3 +338,4 @@ body.page-parent .attachment-post-thumbnail {
     	text-align: left;
 	}
 }
+
